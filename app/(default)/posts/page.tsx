@@ -22,13 +22,13 @@ export default function Home() {
   }
 
   return (
-    <>
+    <main>
       <ListLayout
         posts={posts}
         initialDisplayPosts={initialDisplayPosts}
         pagination={pagination}
         title="All Posts"
       />
-    </>
+    </main>
   )
 }

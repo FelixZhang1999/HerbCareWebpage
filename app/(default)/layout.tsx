@@ -25,13 +25,13 @@ export default function DefaultLayout({
 
   return (
     <>
-      <main className="grow">
+      <section className="grow">
 
         <PageIllustration />
 
         {children}
 
-      </main>
+      </section>
 
     </>
   )

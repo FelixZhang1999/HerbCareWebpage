@@ -30,7 +30,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gradient-to-b from-background-first to-background-second text-text-button tracking-tight`}>
+      <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gradient-to-b from-background-first to-background-second text-text-normal tracking-tight`}>
+        <a href="#main" className="skip-to-main-content-link">Skip to main content</a>
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
           {children}

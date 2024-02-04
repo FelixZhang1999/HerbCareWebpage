@@ -16,6 +16,7 @@ export default function Banner() {
                 href="/"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Go To Retail Page"
               >
                 Not Available Now
               </a>{' '}

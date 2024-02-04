@@ -23,7 +23,7 @@ export default function Footer() {
 
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="text-text-button font-bold mb-1">Resources</h6>
+                <h2 className="text-text-button font-bold mb-1">Resources</h2>
                 <ul>
                   <li className="mb-1">
                     <a href="/" className="font-medium text-text-button hover:underline hover:text-text-normal transition duration-150 ease-in-out">Main Page </a>
@@ -36,7 +36,7 @@ export default function Footer() {
 
               {/* 3nd block */}
               <div className="text-sm">
-                <h6 className="text-text-button font-bold mb-1">Products</h6>
+                <h2 className="text-text-button font-bold mb-1">Products</h2>
                 <ul>
                   <li className="mb-1">
                     <a href="/products" className="font-medium text-text-button hover:underline hover:text-text-normal transition duration-150 ease-in-out">Pain Relief Herbal Patch </a>
@@ -46,7 +46,7 @@ export default function Footer() {
 
               {/* 4rd block */}
               <div className="text-sm">
-                <h6 className="text-text-button font-bold mb-1">Others</h6>
+                <h2 className="text-text-button font-bold mb-1">Others</h2>
                 <ul>
                   <li className="mb-1">
                     <a href="/legal" className="font-medium text-text-button hover:underline hover:text-text-normal transition duration-150 ease-in-out">Legal Disclaimer</a>

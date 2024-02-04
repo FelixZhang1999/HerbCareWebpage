@@ -12,7 +12,7 @@ import Banner from '@/components/banner'
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Hero />
       <Zigzag />
       <Features />
@@ -20,6 +20,6 @@ export default function Home() {
       {/* <Testimonials /> */}
       {/* <Newsletter /> */}
       <Banner />
-    </>
+    </main>
   )
 }

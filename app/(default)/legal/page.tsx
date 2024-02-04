@@ -7,8 +7,8 @@ export const metadata = {
 
 export default function LegalLayout() {
   return (
-    <>
+    <main>
       <Legal />
-    </>
+    </main>
   )
 }
