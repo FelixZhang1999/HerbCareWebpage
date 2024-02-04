@@ -2,6 +2,8 @@ import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer'
 import { allPosts } from 'contentlayer/generated'
 import ListLayout from '@/components/listLayout'
 
+export const runtime = 'edge';
+
 const POSTS_PER_PAGE = 5
 
 export const generateStaticParams = async () => {
