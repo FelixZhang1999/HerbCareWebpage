@@ -23,58 +23,36 @@ export default function Footer() {
 
               {/* 2nd block */}
               <div className="text-sm">
-                <h2 className="text-text-button font-bold mb-1">Resources</h2>
+                <h2 className="text-text-normal font-bold mb-1">Resources</h2>
                 <ul>
                   <li className="mb-1">
-                    <a href="/" className="font-medium text-text-button hover:underline hover:text-text-normal transition duration-150 ease-in-out">Main Page </a>
+                    <a href="/" className="font-medium text-text-normal hover:underline hover:text-text-button transition duration-150 ease-in-out">Main Page </a>
                   </li>
                   <li className="mb-1">
-                    <a href="/posts" className="font-medium text-text-button hover:underline hover:text-text-normal transition duration-150 ease-in-out">Posts </a>
+                    <a href="/posts" className="font-medium text-text-normal hover:underline hover:text-text-button transition duration-150 ease-in-out">Posts </a>
                   </li>
                 </ul>
               </div>
 
               {/* 3nd block */}
               <div className="text-sm">
-                <h2 className="text-text-button font-bold mb-1">Products</h2>
+                <h2 className="text-text-normal font-bold mb-1">Products</h2>
                 <ul>
                   <li className="mb-1">
-                    <a href="/products" className="font-medium text-text-button hover:underline hover:text-text-normal transition duration-150 ease-in-out">Pain Relief Herbal Patch </a>
+                    <a href="/products" className="font-medium text-text-normal hover:underline hover:text-text-button transition duration-150 ease-in-out">Pain Relief Herbal Patch </a>
                   </li>
                 </ul>
               </div>
 
               {/* 4rd block */}
               <div className="text-sm">
-                <h2 className="text-text-button font-bold mb-1">Others</h2>
+                <h2 className="text-text-normal font-bold mb-1">Others</h2>
                 <ul>
                   <li className="mb-1">
-                    <a href="/legal" className="font-medium text-text-button hover:underline hover:text-text-normal transition duration-150 ease-in-out">Legal Disclaimer</a>
+                    <a href="/legal" className="font-medium text-text-normal hover:underline hover:text-text-button transition duration-150 ease-in-out">Legal Disclaimer</a>
                   </li>
                 </ul>
               </div>
-
-              {/* 4th block */}
-              {/* <div className="text-sm">
-                <h6 className="text-text-button font-medium mb-1">Company</h6>
-                <ul>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-text-normal transition duration-150 ease-in-out">Consectetur adipiscing</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-text-normal transition duration-150 ease-in-out">Labore et dolore</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-text-normal transition duration-150 ease-in-out">Consectetur adipiscing</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-text-normal transition duration-150 ease-in-out">Labore et dolore</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-text-normal transition duration-150 ease-in-out">Consectetur adipiscing</Link>
-                  </li>
-                </ul>
-              </div> */}
 
             </div>
 
@@ -118,7 +96,7 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-text-button text-sm mr-4">&copy; {new Date().getFullYear()} HerbCare LLC. All rights reserved.</div>
+            <div className="text-text-normal text-sm mr-4">&copy; {new Date().getFullYear()} HerbCare LLC. All rights reserved.</div>
 
           </div>
 

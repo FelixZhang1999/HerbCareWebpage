@@ -115,7 +115,7 @@ export default function ListLayout({
                         <li key={id} className="py-4">
                             <a href={`/posts/${id}`} >
                                 <article className="space-y-2 " data-aos="fade-left">
-                                    <div className="space-y-3 xl:col-span-3 text-text-button hover:text-text-normal">
+                                    <div className="space-y-3 xl:col-span-3 text-text-normal hover:text-text-button">
                                         <h3 className="text-2xl font-bold leading-8 tracking-tight">
                                             {title}
                                         </h3>

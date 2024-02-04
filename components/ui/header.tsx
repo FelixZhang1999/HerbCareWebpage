@@ -19,7 +19,7 @@ export default function Header() {
               <li>
                 <a
                   href="/"
-                  className="font-medium text-text-button hover:underline hover:text-text-normal px-4 py-3 flex items-center transition duration-150 ease-in-out "
+                  className="font-medium text-text-normal hover:underline hover:text-text-button px-4 py-3 flex items-center transition duration-150 ease-in-out "
                   rel="noopener noreferrer"
                 >
                   Home
@@ -28,7 +28,7 @@ export default function Header() {
               <li>
                 <a
                   href="/posts"
-                  className="font-medium text-text-button hover:underline hover:text-text-normal px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-text-normal hover:underline hover:text-text-button px-4 py-3 flex items-center transition duration-150 ease-in-out"
                   rel="noopener noreferrer"
                 >
                   Posts
@@ -37,7 +37,7 @@ export default function Header() {
               <li>
                 <a
                   href="/products"
-                  className="font-medium text-text-button hover:underline hover:text-text-normal px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-text-normal hover:underline hover:text-text-button px-4 py-3 flex items-center transition duration-150 ease-in-out"
                   rel="noopener noreferrer"
                 >
                   Products

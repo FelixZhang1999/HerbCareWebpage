@@ -1,6 +1,6 @@
 import { allPosts } from 'contentlayer/generated'
 import { format, parseISO } from 'date-fns'
-import { useMDXComponent } from 'next-contentlayer/hooks'
+import ReactMarkdown from 'react-markdown';
 
 export const runtime = 'edge';
 
@@ -22,8 +22,6 @@ export default async function Page({ params }: { params: { id: number } }) {
     const post = allPosts.find((post) => post.id == params.id)
     if (!post) throw new Error(`Post not found for id: ${params.id}`)
 
-    //const MDXContent = useMDXComponent(post.body.code)
-
     return (
         <main>
             <article className="mx-auto max-w-xl py-8 pt-32 pb-10 md:pt-40 md:pb-16">
@@ -34,12 +32,12 @@ export default async function Page({ params }: { params: { id: number } }) {
                     </time>
                 </div>
                 <div className="text-text-normal mx-4">
-                    {/* <MDXContent /> */}
+                    <ReactMarkdown children={post.body.raw} />
                 </div>
                 <div className="pt-12 text-right">
                     <a
                         href="/posts"
-                        className="text-text-button hover:text-text-normal"
+                        className="text-text-normal hover:text-text-button"
                         aria-label="Back to the posts"
                     >
                         <u>&larr; Back to the posts</u>
