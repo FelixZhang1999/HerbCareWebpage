@@ -7,7 +7,7 @@ export const metadata = {
   description: 'Posts about Herbcare and traditional Chinese medicine.',
 }
 
-const POSTS_PER_PAGE = 5
+const POSTS_PER_PAGE = 1
 
 export default function Home() {
   const posts = allCoreContent(sortPosts(allPosts))
