@@ -18,7 +18,7 @@ export const generateMetadata = ({ params }: { params: { id: number } }) => {
     }
 }
 
-export default async function Page({ params }: { params: { id: number } }) {
+export default function Page({ params }: { params: { id: number } }) {
     const post = allPosts.find((post) => post.id == params.id)
     if (!post) throw new Error(`Post not found for id: ${params.id}`)
 

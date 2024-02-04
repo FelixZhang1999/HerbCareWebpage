@@ -44,6 +44,7 @@ export default function MobileMenu() {
           className="w-6 h-6 fill-current text-gray-300 hover:text-text-button transition duration-150 ease-in-out"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
+          role="none"
         >
           <rect y="4" width="24" height="2" rx="1" />
           <rect y="11" width="24" height="2" rx="1" />

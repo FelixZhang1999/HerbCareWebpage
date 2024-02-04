@@ -16,8 +16,8 @@ module.exports = {
           color: '#EBF1F5',
         },
         text: {
-          normal: '#151719',
-          button: '#55595F',
+          normal: '#55595F',
+          button: '#151719',
         },
         gray: {
           100: '#EBF1F5',
