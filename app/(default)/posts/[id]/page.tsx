@@ -4,7 +4,7 @@ import { useMDXComponent } from 'next-contentlayer/hooks'
 
 export const runtime = 'edge';
 
-export const generateStaticParams = async () => {
+export const generateStaticParams = () => {
     const paths = allPosts.map((post) => ({ slug: post.id }))
     return paths
 }
