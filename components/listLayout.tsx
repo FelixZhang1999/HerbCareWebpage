@@ -88,7 +88,7 @@ export default function ListLayout({
                                 type="text"
                                 onChange={(e) => setSearchValue(e.target.value)}
                                 placeholder="Search posts"
-                                className="block w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-900 dark:bg-gray-800 dark:text-gray-100"
+                                className="block w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-900 dark:bg-gray-800 dark:text-text-normal"
                             />
                         </label>
                         <svg
@@ -115,7 +115,7 @@ export default function ListLayout({
                         <li key={id} className="py-4">
                             <a href={`/posts/${id}`} >
                                 <article className="space-y-2 " data-aos="fade-left">
-                                    <div className="space-y-3 xl:col-span-3 text-gray-200 hover:text-gray-100">
+                                    <div className="space-y-3 xl:col-span-3 text-text-button hover:text-text-normal">
                                         <h3 className="text-2xl font-bold leading-8 tracking-tight">
                                             {title}
                                         </h3>

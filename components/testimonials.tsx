@@ -1,8 +1,4 @@
-import Image from 'next/image'
 
-import TestimonialImage01 from '@/public/images/testimonial-01.jpg'
-import TestimonialImage02 from '@/public/images/testimonial-02.jpg'
-import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
 
 export default function Testimonials() {
   return (
@@ -13,7 +9,7 @@ export default function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Don't take our word for it</h2>
-            <p className="text-xl text-gray-100">See what other customers say about our product.</p>
+            <p className="text-xl text-text-normal">See what other customers say about our product.</p>
           </div>
 
           {/* Testimonials */}
@@ -31,7 +27,7 @@ export default function Testimonials() {
               </div>
               <blockquote className="text-lg text-gray-400 grow"></blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">A</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Amazon</a>
+                <cite className="text-text-button not-italic">A</cite> - <a className="text-purple-600 hover:text-text-button transition duration-150 ease-in-out" href="#0">Amazon</a>
               </div>
             </div>
 
@@ -47,7 +43,7 @@ export default function Testimonials() {
               </div>
               <blockquote className="text-lg text-gray-400 grow"></blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">B</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Amazon</a>
+                <cite className="text-text-button not-italic">B</cite> - <a className="text-purple-600 hover:text-text-button transition duration-150 ease-in-out" href="#0">Amazon</a>
               </div>
             </div>
 
@@ -62,7 +58,7 @@ export default function Testimonials() {
               </div>
               <blockquote className="text-lg text-gray-400 grow"></blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">C</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Amazon</a>
+                <cite className="text-text-button not-italic">C</cite> - <a className="text-purple-600 hover:text-text-button transition duration-150 ease-in-out" href="#0">Amazon</a>
               </div>
             </div>
 

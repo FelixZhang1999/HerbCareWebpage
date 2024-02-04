@@ -41,7 +41,7 @@ export default function MobileMenu() {
       >
         <span className="sr-only">Menu</span>
         <svg
-          className="w-6 h-6 fill-current text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out"
+          className="w-6 h-6 fill-current text-gray-300 hover:text-text-button transition duration-150 ease-in-out"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -58,21 +58,21 @@ export default function MobileMenu() {
         className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
         style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
       >
-        <ul className="bg-gray-800 px-4 py-2">
+        <ul className="bg-gray-100 px-4 py-2">
           <li>
-            <a href="/" className="flex font-medium w-full text-gray-100 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+            <a href="/" className="flex font-medium w-full text-text-normal hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Home
             </a>
           </li>
           <li>
-            <a href="/posts" className="flex font-medium w-full text-gray-100 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+            <a href="/posts" className="flex font-medium w-full text-text-normal hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Posts
             </a>
           </li>
           <li>
             <a
               href="/products"
-              className="flex font-medium w-full text-gray-100 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}
+              className="flex font-medium w-full text-text-normal hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}
             >
               Products
             </a>

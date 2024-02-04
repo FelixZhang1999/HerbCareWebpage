@@ -1,10 +1,9 @@
 import './css/style.css'
 
-import { Inter, Architects_Daughter } from 'next/font/google'
+import { Architects_Daughter, Inter } from 'next/font/google'
 
-import Header from '@/components/ui/header'
-import Banner from '@/components/banner'
 import Footer from '@/components/ui/footer'
+import Header from '@/components/ui/header'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -31,7 +30,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gradient-to-b from-blue-custom to-purple-500 text-gray-200 tracking-tight`}>
+      <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gradient-to-b from-background-first to-background-second text-text-button tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
           {children}
@@ -41,4 +40,3 @@ export default function RootLayout({
     </html>
   )
 }
- 

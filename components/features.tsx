@@ -1,24 +1,23 @@
-import placeHolder from '../public/images/logo-placeholder.jpg';
 import Image from 'next/image';
-import GuiPi from '../public/images/GuiPi.jpg'
-import AiYe from '../public/images/AiYe.jpg'
-import AiRong from '../public/images/AiRong.jpg'
-import RuXiang from '../public/images/RuXiang.jpg'
-import MoYao from '../public/images/MoYao.jpg'
-import GanJiang from '../public/images/GanJiang.jpg'
+import AiRong from '../public/images/AiRong.jpg';
+import AiYe from '../public/images/AiYe.jpg';
+import GanJiang from '../public/images/GanJiang.jpg';
+import GuiPi from '../public/images/GuiPi.jpg';
+import MoYao from '../public/images/MoYao.jpg';
+import RuXiang from '../public/images/RuXiang.jpg';
 
 export default function Features() {
 
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-b border-t border-gray-100">
+        <div className="py-12 md:py-20 border-b border-t border-text-normal">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">All Natural Ingredients</div>
-            <h2 className="h2 mb-4">Traditional Chinese Herbal Formula.</h2>
-            <p className="text-xl text-gray-100">Crafted entirely from traditional Chinese herbal ingredients, this hereditary secret formula has been passed down through generations.</p>
+            <h2 className="h2 mb-4">Traditional Chinese Herbal Formula</h2>
+            <p className="text-xl text-text-normal">Crafted entirely from traditional Chinese herbal ingredients, this hereditary secret formula has been passed down through generations.</p>
           </div>
 
           {/* Items */}

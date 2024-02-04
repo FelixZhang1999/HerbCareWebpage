@@ -1,5 +1,5 @@
-import product from '../public/images/product.jpg';
 import Image from 'next/image';
+import product from '../public/images/product.jpg';
 
 export default function Hero() {
   return (
@@ -17,7 +17,7 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">Pain Relief Herbal Patches</h1>
-            <p className="text-xl text-gray-100 mb-8" data-aos="fade-up" data-aos-delay="200">Are you struggling with chronic pains that affect your daily life? Introducing our pain relief herbal patches, offering natural and effective solutions for a variety of chronic pain issues.</p>
+            <p className="text-xl text-text-normal mb-8 font-medium" data-aos="fade-up" data-aos-delay="200">Are you struggling with chronic pains that affect your daily life? Introducing our pain relief herbal patches, offering natural and effective solutions for a variety of chronic pain issues.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Buy Now</a>

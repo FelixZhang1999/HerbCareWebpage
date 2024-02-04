@@ -8,8 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        blue: {
-          custom: '#2b95c7',
+        background: {
+          first: '#C8ECFF',
+          second: '#C7C7FF',
+        },
+        header: {
+          color: '#EBF1F5',
+        },
+        text: {
+          normal: '#151719',
+          button: '#55595F',
         },
         gray: {
           100: '#EBF1F5',

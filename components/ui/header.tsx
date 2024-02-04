@@ -1,13 +1,13 @@
-import Logo from '../common/logo'
+import Logo from '../common/logo-left'
 import MobileMenu from './mobile-menu'
 
 export default function Header() {
   return (
-    <header className="absolute w-full z-30 ">
+    <header className="absolute w-full z-30 bg-header-color bg-opacity-80">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
-          <div className="shrink-0 mr-4 mt-10">
+          <div className="shrink-0 mr-4 mt-2">
             {/* Logo */}
             <Logo />
           </div>
@@ -19,7 +19,7 @@ export default function Header() {
               <li>
                 <a
                   href="/"
-                  className="font-medium text-gray-200 hover:text-gray-100 px-4 py-3 flex items-center transition duration-150 ease-in-out "
+                  className="font-medium text-text-button hover:underline hover:text-text-normal px-4 py-3 flex items-center transition duration-150 ease-in-out "
                   rel="noopener noreferrer"
                 >
                   Home
@@ -28,7 +28,7 @@ export default function Header() {
               <li>
                 <a
                   href="/posts"
-                  className="font-medium text-gray-200 hover:text-gray-100 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-text-button hover:underline hover:text-text-normal px-4 py-3 flex items-center transition duration-150 ease-in-out"
                   rel="noopener noreferrer"
                 >
                   Posts
@@ -37,7 +37,7 @@ export default function Header() {
               <li>
                 <a
                   href="/products"
-                  className="font-medium text-gray-200 hover:text-gray-100 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-text-button hover:underline hover:text-text-normal px-4 py-3 flex items-center transition duration-150 ease-in-out"
                   rel="noopener noreferrer"
                 >
                   Products
