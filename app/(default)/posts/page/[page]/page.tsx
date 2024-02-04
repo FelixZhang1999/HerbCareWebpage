@@ -4,7 +4,7 @@ import ListLayout from '@/components/listLayout'
 
 export const runtime = 'edge';
 
-const POSTS_PER_PAGE = 1
+const POSTS_PER_PAGE = 5
 
 export const generateStaticParams = async () => {
   const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE)

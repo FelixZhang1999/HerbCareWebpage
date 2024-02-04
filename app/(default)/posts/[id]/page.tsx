@@ -22,7 +22,7 @@ export default async function Page({ params }: { params: { id: number } }) {
     const post = allPosts.find((post) => post.id == params.id)
     if (!post) throw new Error(`Post not found for id: ${params.id}`)
 
-    const MDXContent = useMDXComponent(post.body.code)
+    //const MDXContent = useMDXComponent(post.body.code)
 
     return (
         <main>
@@ -34,7 +34,7 @@ export default async function Page({ params }: { params: { id: number } }) {
                     </time>
                 </div>
                 <div className="text-text-normal mx-4">
-                    <MDXContent />
+                    {/* <MDXContent /> */}
                 </div>
                 <div className="pt-12 text-right">
                     <a
