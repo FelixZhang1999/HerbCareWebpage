@@ -19,8 +19,8 @@ const architects_daughter = Architects_Daughter({
 })
 
 export const metadata = {
-  title: 'HerbCare',
-  description: 'HerbCare Wesbite',
+  title: 'HerbCaring',
+  description: 'HerbCaring Wesbite',
 }
 
 export default function RootLayout({

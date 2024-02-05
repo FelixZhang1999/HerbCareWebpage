@@ -3,8 +3,8 @@ import { allPosts } from 'contentlayer/generated'
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer'
 
 export const metadata = {
-  title: 'HerbCare posts',
-  description: 'Posts about Herbcare and traditional Chinese medicine.',
+  title: 'HerbCaring posts',
+  description: 'Posts about HerbCaring and traditional Chinese medicine.',
 }
 
 const POSTS_PER_PAGE = 5

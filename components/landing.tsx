@@ -6,7 +6,7 @@ export default function Landing() {
         <section>
             <div className="relative grid max-w-6xl mx-auto px-4 sm:px-6 grid pt-32 pb-10 md:pt-40 md:pb-16">
                 <div className="relative max-w-3xl mx-auto text-center pb-12 md:pb-16">
-                    <h1 className="h1 mb-4" data-aos="fade-up">HerbCare</h1>
+                    <h1 className="h1 mb-4" data-aos="fade-up">HerbCaring</h1>
                     <p className="text-xl font-medium text-text-normal mb-8" data-aos="fade-up" data-aos-delay="200">We aim to introduce the healing benefits of traditional Chinese herbals to the world.</p>
                 </div>
                 <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">

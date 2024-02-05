@@ -1,7 +1,7 @@
 import Landing from "@/components/landing";
 
 export const metadata = {
-  title: 'HerbCare',
+  title: 'HerbCaring',
   description: 'Introducing the healing benefits of traditional Chinese herbals to the world. Check out our pain relief herbal patches!',
 }
 

@@ -1,7 +1,7 @@
 import Legal from "@/components/legal"
 
 export const metadata = {
-  title: 'HerbCare Legal',
+  title: 'HerbCaring Legal',
   description: 'Legal Disclaimer.',
 }
 

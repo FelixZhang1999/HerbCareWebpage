@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'HerbCare Pain Relief Herbal Patches',
+  title: 'HerbCaring Pain Relief Herbal Patches',
   description: 'Pain Relief Herbal Patches. A natural solution to a variety of pains',
 }
 
