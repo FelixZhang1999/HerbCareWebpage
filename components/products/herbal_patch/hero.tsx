@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import product from '../public/images/product.jpg';
+import product from '/public/images/product.jpg';
 
 export default function Hero() {
   return (

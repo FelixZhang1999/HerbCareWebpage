@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import AiRong from '../public/images/AiRong.jpg';
-import AiYe from '../public/images/AiYe.jpg';
-import GanJiang from '../public/images/GanJiang.jpg';
-import GuiPi from '../public/images/GuiPi.jpg';
-import MoYao from '../public/images/MoYao.jpg';
-import RuXiang from '../public/images/RuXiang.jpg';
+import AiRong from '/public/images/AiRong.jpg';
+import AiYe from '/public/images/AiYe.jpg';
+import GanJiang from '/public/images/GanJiang.jpg';
+import GuiPi from '/public/images/GuiPi.jpg';
+import MoYao from '/public/images/MoYao.jpg';
+import RuXiang from '/public/images/RuXiang.jpg';
 
 export default function Features() {
 

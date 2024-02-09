@@ -1,5 +1,5 @@
 import React from 'react'
-import plant from '../public/images/plant.png'
+import plant from '/public/images/plant.png'
 import Image from 'next/image';
 
 export default function PageIllustration() {
