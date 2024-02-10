@@ -97,7 +97,7 @@ export default function Footer() {
 
             {/* Copyrights note */}
             <div className="text-text-normal text-sm mr-4">&copy; {new Date().getFullYear()} HerbCare LLC. All rights reserved.</div>
-
+            <div className="text-text-normal text-sm mr-4">Contact: (619)-490-0661</div>
           </div>
 
         </div>

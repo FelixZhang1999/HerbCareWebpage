@@ -26,42 +26,42 @@ export default function Features() {
             {/* 1st item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
               <Image src={GuiPi} width={100} height={100} style={{borderRadius: '50%'}} alt="Gui Pi" />
-              <h4 className="h4 mb-2">Gui Pi</h4>
+              <h4 className="h4 mb-2">Cinnamon</h4>
               <p className="text-lg text-gray-400 text-center"></p>
             </div>
 
             {/* 2nd item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
               <Image src={AiYe} width={100} height={100} style={{borderRadius: '50%'}} alt="Ai Ye" />
-              <h4 className="h4 mb-2">Ai Ye</h4>
+              <h4 className="h4 mb-2">Mugwort Leaf</h4>
               <p className="text-lg text-gray-400 text-center"></p>
             </div>
 
             {/* 3rd item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
               <Image src={AiRong} width={100} height={100} style={{borderRadius: '50%'}} alt="Ai Rong" />
-              <h4 className="h4 mb-2">Ai Rong</h4>
+              <h4 className="h4 mb-2">Moxa Wool</h4>
               <p className="text-lg text-gray-400 text-center"></p>
             </div>
 
             {/* 4th item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
               <Image src={RuXiang} width={100} height={100} style={{borderRadius: '50%'}} alt="Ru Xiang" />
-              <h4 className="h4 mb-2">Ru Xiang</h4>
+              <h4 className="h4 mb-2">Frankincense</h4>
               <p className="text-lg text-gray-400 text-center"></p>
             </div>
 
             {/* 5th item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
               <Image src={MoYao} width={100} height={100} style={{borderRadius: '50%'}} alt="Mo Yao" />
-              <h4 className="h4 mb-2">Mo Yao</h4>
+              <h4 className="h4 mb-2">Myrrh</h4>
               <p className="text-lg text-gray-400 text-center"></p>
             </div>
 
             {/* 6th item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
               <Image src={GanJiang} width={100} height={100} style={{borderRadius: '50%'}} alt="Gan Jiang" />
-              <h4 className="h4 mb-2">Gan Jiang</h4>
+              <h4 className="h4 mb-2">Dried Ginger</h4>
               <p className="text-lg text-gray-400 text-center"></p>
             </div>
 
