@@ -23,7 +23,6 @@ export const Herb = defineDocumentType(() => ({
     fields: {
         name: { type: 'string', required: true },
         other_names: { type: 'string', required: false },
-        image_url: {type: 'string', required: false},
         link: {type: 'string', required: false},
     },
     computedFields: {

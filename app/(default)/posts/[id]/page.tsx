@@ -1,6 +1,7 @@
 import { allPosts } from 'contentlayer/generated'
 import { format, parseISO } from 'date-fns'
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw'
 
 export const runtime = 'edge';
 
@@ -24,7 +25,7 @@ export default async function Page({ params }: { params: { id: number } }) {
 
     return (
         <main>
-            <article className="mx-auto max-w-xl py-8 pt-32 pb-10 md:pt-40 md:pb-16">
+            <article className="mx-auto max-w-2xl py-8 pt-32 pb-10 md:pt-40 md:pb-16">
                 <div className="max-w-3xl mx-auto text-center pb-8">
                     <h1 className="text-3xl font-bold">{post.title}</h1>
                     <time dateTime={post.date} className="mb-1 text-s text-text-normal">
@@ -32,7 +33,7 @@ export default async function Page({ params }: { params: { id: number } }) {
                     </time>
                 </div>
                 <div className="text-text-normal mx-4">
-                    <ReactMarkdown children={post.body.raw} />
+                    <ReactMarkdown children={post.body.raw} rehypePlugins={[rehypeRaw]}/>
                 </div>
                 <div className="pt-12 text-right">
                     <a
