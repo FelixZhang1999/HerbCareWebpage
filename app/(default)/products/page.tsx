@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'HerbCaring Pain Relief Herbal Patches',
-  description: 'Pain Relief Herbal Patches. A natural solution to a variety of pains',
+  description: 'Our patches provide long-lasting relief for various pains caused by arthritis, strain and sprain, sciatica, fibromyalgia, tenosynovitis, menstrual cramps, and more. Versatile in application, they effectively target back, neck, joint, shoulder, muscle pain, and even aid with stomach pain and acid reflux. Plus, each single patch is reusable for 1 to 2 months, ensuring lasting relief and value.',
 }
 
 import Hero from '@/components/products/herbal_patch/hero'
