@@ -1,6 +1,7 @@
 import './css/style.css'
 
 import { Architects_Daughter, Inter } from 'next/font/google'
+import Script from "next/script";
 
 import Footer from '@/components/ui/footer'
 import Header from '@/components/ui/header'
@@ -30,6 +31,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16466816716"></Script>
+        <Script id="google-analytics" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-16466816716');`}
+        </Script>
+      </head>
       <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gradient-to-b from-background-first to-background-second text-text-normal tracking-tight`}>
         <a href="#main" className="skip-to-main-content-link">Skip to main content</a>
         <div className="flex flex-col min-h-screen overflow-hidden">
