@@ -30,7 +30,7 @@ export default function Zigzag() {
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2"></div>
                   <h3 className="h3 mb-3">To Relieve to a Variety of Pains </h3>
-                  <p className="text-xl text-text-normal mb-4">Our patches provide long-lasting relief for various pains caused by arthritis, strain and sprain, sciatica, fibromyalgia, tenosynovitis, menstrual cramps, etc. It can be used for back, neck, joint, shoulder, muscle pain, etc. It also helps with stomach pain and acid reflux.</p>
+                  <p className="text-xl text-text-normal mb-4">Our patches provide long-lasting relief for various pains caused by arthritis, strain and sprain, sciatica, fibromyalgia, tenosynovitis, menstrual cramps, stomach pain, and acid reflux etc. It can be used for back, neck, joint, shoulder, muscle pain, etc.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       {/* <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
