@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import product from '/public/images/PatchFront.png';
+import product from '/public/images/PatchShowEdit.png';
 
 export default function Hero() {
   return (
