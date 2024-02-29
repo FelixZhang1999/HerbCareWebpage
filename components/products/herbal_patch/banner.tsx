@@ -13,7 +13,7 @@ export default function Banner() {
             <div className="text-slate-500 inline-flex">
               <a
                 className="font-medium hover:underline text-slate-50"
-                href="https://www.ebay.com/itm/404810138996"
+                href="https://www.amazon.com/dp/B0CWPQ4NSV"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Go To Retail Page"

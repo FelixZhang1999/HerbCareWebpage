@@ -20,8 +20,11 @@ export default function Hero() {
             <p className="text-xl text-text-normal mb-8 font-medium" data-aos="fade-up" data-aos-delay="200">Are you struggling with chronic pains that affect your daily life? Introducing our pain relief herbal patches, offering natural and effective solutions for a variety of chronic pain issues.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="600">
+                <a className="btn text-white bg-gray-700 hover:bg-gray-900 hover:shadow-lg w-full sm:w-auto sm:ml-4" href="https://www.amazon.com/dp/B0CWPQ4NSV" role="button" target="_blank" rel="noreferrer" aria-label="Go To Retail Page">
+                  View on Amazon
+                </a>
                 <a className="btn text-white bg-gray-700 hover:bg-gray-900 hover:shadow-lg w-full sm:w-auto sm:ml-4" href="https://www.ebay.com/itm/404810138996" role="button" target="_blank" rel="noreferrer" aria-label="Go To Retail Page">
-                  Buy Now
+                  View on Ebay
                 </a>
               </div>
             </div>
